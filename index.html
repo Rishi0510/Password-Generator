@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Update the Font Awesome CDN URL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Add a title for the password generator -->
+      <h2>Password Generator</h2>
+      <div class="input-box">
+        <input type="text" id="passwordInput" readonly />
+        <i class="fas fa-copy" id="copy-btn"></i>
+      </div>
+      <div class="range-box">
+        <input type="range" min="4" max="16" value="8" id="range" />
+        <span class="slider-number" id="slider-number">8</span>
+      </div>
+      <button class="generate-button" id="generate-button">
+        Generate Password
+      </button>
+    </div>
+
+ 
+      <footer class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/rishi-raj-1877451b9/" target="_blank" style="color: rgb(159, 177, 233);">Rishi</a></p>
+      </footer>  
+
+    <script src="index.js"></script>
+
+
+
+
+  </body>
+</html>
